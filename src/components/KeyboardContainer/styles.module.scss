@@ -1,0 +1,7 @@
+.keyboardGrid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: fit-content;
+  justify-items: center;
+  gap: 20px;
+}

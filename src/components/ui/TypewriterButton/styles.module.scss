@@ -1,0 +1,32 @@
+.typewriterButton {
+  position: relative;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 64px;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #333;
+  }
+
+  .clickEffect {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:active .clickEffect {
+    opacity: 1;
+  }
+}

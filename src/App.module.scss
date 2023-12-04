@@ -1,0 +1,24 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+
+    .inputText {
+      margin: 30px auto;
+      padding: 20px 50px;
+      width: 90%;
+      font-family: 'Courier New', monospace;
+      font-size: 32px;
+      outline: none;
+      border: 0;
+      border-bottom: 2px solid black;
+      text-align: center;
+    }
+  }
+}
