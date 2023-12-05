@@ -1,0 +1,38 @@
+.rotor {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 0.15em solid black;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  gap: 0.3em;
+  background-color: wheat;
+
+  .rotorId {
+    position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+  }
+
+  .centralElement {
+    font-family: 'Courier New', monospace;
+    font-size: 32px;
+    display: flex;
+    gap: 0.2em;
+
+    .currentElement {
+      padding: 0 0.5em;
+      color: red;
+    }
+  }
+}
+
+button {
+  padding: 0.2em 0.5em;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}

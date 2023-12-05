@@ -8,8 +8,7 @@ export interface ButtonProps {
 
 const TypewriterButton = forwardRef(({ children, handleButtonClick }: ButtonProps, ref: React.Ref<HTMLButtonElement>) => {
   return (
-    <button onClick={() => handleButtonClick(children)} className={`${styles.typewriterButton}`} ref={ref}>
-      <span className={styles.clickEffect}></span>
+    <button onClick={() => handleButtonClick(children)} className={styles.typewriterButton} ref={ref}>
       {children}
     </button>
   );

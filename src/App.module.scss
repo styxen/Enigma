@@ -1,13 +1,19 @@
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
+  background-color: wheat;
 
   .container {
     display: flex;
     width: fit-content;
     flex-direction: column;
+    padding: 6em;
+    border: 0.5em solid black;
+    border-radius: 6em;
+    background-color: white;
 
     .inputText {
       margin: 30px auto;

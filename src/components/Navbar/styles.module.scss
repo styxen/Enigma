@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .elementGroup {
+    display: flex;
+    gap: 2em;
+  }
+}

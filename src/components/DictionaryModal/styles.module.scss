@@ -1,0 +1,51 @@
+.openDictinary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeDictinary {
+  display: none;
+}
+
+.dictinary {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.8);
+  z-index: 2;
+
+  .window {
+    width: 86em;
+    height: 50em;
+    border: 0.5em solid black;
+    border-radius: 6em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    align-items: center;
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+      overflow-y: scroll;
+      padding: 1em 3em;
+    }
+
+    .control {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      width: 80%;
+    }
+  }
+}
